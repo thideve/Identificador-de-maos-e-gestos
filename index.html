@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <script src="webcam.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <title>Identificação de mãos e gestos</title>
+    </head>
+
+
+    <body>
+        <div id="heading">
+            <button class="btn btn-primary" type="button" id="titulo">
+             Identificação de mãos e gestos
+             <br>
+            </button>
+<br>
+<br>
+            <button id="emojis"
+             <span id="joinha">&#128077;</span> <span id="vitória">&#9996;</span> <span id="tranquilo">&#129311;</span> <span id="joinha_negativo">&#128078;</span> <span id="top">&#128076;</span>
+            
+        </div>
+
+        <div id="camera"></div>
+
+<br>
+<br>
+<center>
+        <button id="capturar" onclick="TakeSnapshot();">Capturar Imagem</button>
+
+        <div id="resultado"></div>
+
+        <div id="imagem"></div>
+
+<br>
+<br>
+        <button id="identificar" onclick="GetSnapshot();">Obter Imagem</button>
+
+        </center>
+    </body>
+</html>

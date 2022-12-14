@@ -1,0 +1,30 @@
+#emojis
+{
+ width: 1375px; 
+ height: 100px;
+ 
+ font-size: 19px;
+
+ background-color: rgb(247, 247, 27);
+}
+
+#titulo
+{
+    width: 1375px;
+    height: 80px;
+    background-color: rgb(211, 211, 255);
+    font-size: 20px;
+    
+}
+
+#capturar
+{
+    width: 150px;
+    height: 40px;
+}
+
+#identificar
+{
+    width: 150px;
+    height: 40px;
+}
